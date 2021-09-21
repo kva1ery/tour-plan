@@ -1,0 +1,23 @@
+{
+  "name": "tour-plan",
+  "version": "1.0.0",
+  "description": "Учебный проект для практики на курсе Веб Старт от Glo Academy. Автор курса — Артем Исламов.",
+  "devDependencies": {
+    "autoprefixer": "9.5.x",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "8.0.x",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.42.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp start"
+  }
+}
