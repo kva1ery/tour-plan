@@ -4,10 +4,13 @@ body {
   padding: 0;
 
 
+  color: $text-color;
   font-family: Mulish, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
+
+  background-color: $background-color;
 }
 
 img {

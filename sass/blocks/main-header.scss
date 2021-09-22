@@ -1,0 +1,27 @@
+.main-header__top-line {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background-color: #ffffff;
+}
+
+.main-header__top-line-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.main-header__logo {
+  flex-shrink: 0;
+}
+
+.main-header__search
+{
+  flex-shrink: 0;
+  margin-left: 108px;
+  margin-right: 20px;
+}
+
+.main-header__user {
+  flex-shrink: 0;
+  margin-left: auto;
+}

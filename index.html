@@ -13,19 +13,23 @@
 <header class="main-header">
   <div class="main-header__top-line">
     <div class="container">
-      <a class="logo" href="#">
-        <img class="logo__img" src="img/logo-horisontal.svg" alt="Logo: Best Tour Plan" width="176" height="19">
-      </a>
+      <div class="main-header__top-line-wrapper">
+        <a class="logo main-header__logo" href="#">
+          <img class="logo__img" src="img/logo-horisontal.svg" alt="Logo: Best Tour Plan" width="176" height="19">
+        </a>
 
-      <form class="search-form" action="#" id="search">
-        <label class="visually-hidden" for="search-text" >Search Location</label>
-        <input class="search-form__input" type="text" name="search-text" id="search-text" placeholder="Search Location">
-        <button class="search-form__button"><span class="visually-hidden">Search</span></button>
-      </form>
+        <form class="search-form main-header__search" action="#" id="search">
+          <label class="visually-hidden" for="search-text" >Search Location</label>
+          <input class="input search-form__input" type="text" name="search-text" id="search-text" placeholder="Search Location">
+          <button class="button search-form__button"><span class="visually-hidden">Search</span></button>
+        </form>
 
-      <div class="user">
-        <img class="user__avatar" src="img/user-avatar.jpeg" alt="Nathan avatar">
-        <span class="user__name">Nathan</span>
+        <div class="user main-header__user">
+          <a class="user__link" href="#">
+            <img class="user__avatar" src="img/user-avatar.jpeg" alt="Nathan avatar">
+            <span class="user__name">Nathan</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
