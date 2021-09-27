@@ -1,3 +1,15 @@
 .logo {
   width: 176px;
 }
+
+@media (max-width: $desktop-width) {
+  .logo {
+    width: 133px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .logo {
+    width: 99px;
+  }
+}

@@ -2,8 +2,6 @@
   @include list-reset();
   display: flex;
   justify-content: space-between;
-  padding-top: 31px;
-  padding-bottom: 31px;
 }
 
 .site-menu__link {
@@ -14,4 +12,11 @@
 
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media (max-width: $desktop-width) {
+  .site-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
