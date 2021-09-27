@@ -1,0 +1,17 @@
+.site-menu {
+  @include list-reset();
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.site-menu__link {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
