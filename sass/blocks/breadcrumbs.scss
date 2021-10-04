@@ -1,0 +1,20 @@
+.breadcrumbs {
+  @include list-reset();
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 18px;
+  padding-bottom: 19px;
+}
+
+.breadcrumbs__item:not(:last-child)::after {
+  content: "/";
+  margin-right: 3px;
+}
+
+.breadcrumbs__link {
+  color: $background-dark-color;
+  font-size: 10px;
+  line-height: 13px;
+
+  text-decoration: none;
+}
